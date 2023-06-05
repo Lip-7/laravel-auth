@@ -2,8 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\Project;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
 
 class ProjectSeeder extends Seeder
 {
@@ -12,6 +14,16 @@ class ProjectSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        $projects = config('projects');
+        foreach ($projects as $project) {
+            $newProject = new Project();
+            $newProject->name = $project['name'];
+            $newProject->gitUrl = $project['gitUrl'];
+            $newProject->description = $project['description'];
+            $newProject->framework = $project['framework'];
+            $newProject->tecnologies = $project['tecnologies'];
+            $newProject->slug = Str::slug($project['name'], '-');
+            $newProject->save();
+        }
     }
 }
