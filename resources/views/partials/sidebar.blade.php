@@ -29,7 +29,7 @@
 
     <!-- Nav Item Menu -->
     <li class="nav-item">
-        <a class="nav-link" href="" role="button">
+        <a class="nav-link" href="{{route('admin.projects.index')}}" role="button">
             <i class="fa-solid fa-note-sticky"></i>
             <span>Projects</span>
         </a>

@@ -1,4 +1,4 @@
-@use './partials/variables' as *;
+@use "./partials/variables" as *;
 
 $fa-font-path: "../fonts/webfonts" !default;
 
@@ -21,3 +21,35 @@ $fa-font-path: "../fonts/webfonts" !default;
 @import "./partials/login.scss";
 @import "./partials/error.scss";
 @import "./partials/footer.scss";
+
+.projectsIndexPagination {
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 224px);
+}
+.projectsIndex .buttons {
+    top: 0;
+    right: 0;
+}
+.projectsIndex .buttons button {
+    color: rgb(165, 33, 33);
+    animation: buttonPopup .2s ease-in-out forwards;
+    opacity: 0;
+}
+.projectsIndex .buttons a {
+    animation: buttonPopup .2s .5s ease-in-out forwards;
+    opacity: 0;
+}
+
+/* animations */
+
+@keyframes buttonPopup {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
