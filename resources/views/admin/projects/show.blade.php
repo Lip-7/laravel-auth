@@ -35,6 +35,7 @@
         <input type="checkbox" id="windows-help-input-min" name="windows-help-input-min" />
         <input type="checkbox" id="windows-update-input-min" name="windows-update-input-min" />
         <input type="checkbox" id="windows-notepad-input-min" name="windows-notepad-min" />
+        <input type="checkbox" id="windows-projectInfo-input-min" name="windows-projectInfo-min" />
         <input type="checkbox" id="windows-minesweeper-input-min" name="windows-minesweeper-input-min" />
         <input type="checkbox" id="windows-trash-input-min" name="windows-trash-input-min" />
         <!-- Maximize Windows -->
@@ -43,6 +44,7 @@
         <input type="checkbox" id="windows-help-input-max" name="windows-help-input-max" />
         <input type="checkbox" id="windows-update-input-max" name="windows-update-input-max" />
         <input type="checkbox" id="windows-notepad-input-max" name="windows-notepad-max" />
+        <input type="checkbox" id="windows-projectInfo-input-max" name="windows-projectInfo-max" />
         <input type="checkbox" id="windows-minesweeper-input-max" name="windows-minesweeper-input-max" />
         <input type="checkbox" id="windows-trash-input-max" name="windows-trash-input-max" />
         <!-- Window Order -->
@@ -51,6 +53,7 @@
         <input type="radio" id="windows-help-input-on-top" name="windows-order" />
         <input type="radio" id="windows-update-input-on-top" name="windows-order" />
         <input type="radio" id="windows-notepad-input-on-top" name="windows-order" />
+        <input type="radio" id="windows-projectInfo-input-on-top" name="windows-order" />
         <input type="radio" id="windows-minesweeper-input-on-top" name="windows-order" />
         <input type="radio" id="windows-trash-input-on-top" name="windows-order" />
         <!-- Window Visibility -->
@@ -59,6 +62,7 @@
         <input type="checkbox" id="windows-help-input" name="windows-help-input" />
         <input type="checkbox" id="windows-update-input" name="windows-update-input" />
         <input type="checkbox" id="windows-notepad-input" name="windows-notepad-input" />
+        <input type="checkbox" id="windows-projectInfo-input" name="windows-projectInfo-input" />
         <input type="checkbox" id="windows-minesweeper-input" name="windows-minesweeper-input" />
         <input type="checkbox" id="windows-trash-input" name="windows-trash-input" />
 
@@ -104,6 +108,12 @@
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAUVBMVEUAAACGhoYAgID4+Phm//+ZzMyZ///AwMAAAADM///x8fHM7P/q6upmzMymyvDM/8zd3d2Z/8zj4+MzmZnMzMxmzP9m/8wzzMwzzP/X19f///8yWdUJAAAAAXRSTlMAQObYZgAAAAFiS0dEGnVn5DIAAAAHdElNRQfiBhoALTAhTzgxAAABUklEQVQ4y5WT27aCMAxEJZByqYkFqR7//0fPpKUW0BeH4svsziQuvVx+UNOcz1HU0ukcEerYuf2hnobhEJA1TuPkPc5Vhr6pBLlst5MRo/de6RMwG5evsG8jAnZA9s22yze8jICwB8ZpKEL8rBawvAFyk7fZsmbdAvaArwHqsaUM97tIAVBQbjtdHApshb5dKpAGm+Hgg9WxTRDeAPybpma7i69RHaUGqYAf0axshzkHrG1JICtNT0ai2gpoqIBXh2iGLSodP2wFa8gVhKVSgOPIHYgYLaBvSwK5tJcKdyAk4qL5oQA2AaslR4ZpPpUG2QCNjzibm/yYAqwhJWCCjlmzkxih0rABSH5s2SLP+Ewr5AarIOYt2N4/eVrAmhu2Ic9KE4QKXIaT7rVBmv3PulnCC1rXF552l7ADlhDCy7D2GwDirP4I4N941tH/nPfsf9M/lngcOlIX3Z0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMDYtMjZUMDA6NDU6NDgtMDQ6MDBhJQfuAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTA2LTI2VDAwOjQ1OjQ4LTA0OjAwEHi/UgAAAABJRU5ErkJggg=="
                         alt="" /> </div>
                 <div class="text">Read me</div>
+            </label>
+            <label for="windows-projectInfo-input" class="desktop-item">
+                <div class="icon"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAUVBMVEUAAACGhoYAgID4+Phm//+ZzMyZ///AwMAAAADM///x8fHM7P/q6upmzMymyvDM/8zd3d2Z/8zj4+MzmZnMzMxmzP9m/8wzzMwzzP/X19f///8yWdUJAAAAAXRSTlMAQObYZgAAAAFiS0dEGnVn5DIAAAAHdElNRQfiBhoALTAhTzgxAAABUklEQVQ4y5WT27aCMAxEJZByqYkFqR7//0fPpKUW0BeH4svsziQuvVx+UNOcz1HU0ukcEerYuf2hnobhEJA1TuPkPc5Vhr6pBLlst5MRo/de6RMwG5evsG8jAnZA9s22yze8jICwB8ZpKEL8rBawvAFyk7fZsmbdAvaArwHqsaUM97tIAVBQbjtdHApshb5dKpAGm+Hgg9WxTRDeAPybpma7i69RHaUGqYAf0axshzkHrG1JICtNT0ai2gpoqIBXh2iGLSodP2wFa8gVhKVSgOPIHYgYLaBvSwK5tJcKdyAk4qL5oQA2AaslR4ZpPpUG2QCNjzibm/yYAqwhJWCCjlmzkxih0rABSH5s2SLP+Ewr5AarIOYt2N4/eVrAmhu2Ic9KE4QKXIaT7rVBmv3PulnCC1rXF552l7ADlhDCy7D2GwDirP4I4N941tH/nPfsf9M/lngcOlIX3Z0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMDYtMjZUMDA6NDU6NDgtMDQ6MDBhJQfuAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTA2LTI2VDAwOjQ1OjQ4LTA0OjAwEHi/UgAAAABJRU5ErkJggg=="
+                        alt="" /> </div>
+                <div class="text">Project info</div>
             </label>
             <label for="windows-minesweeper-input" class="desktop-item">
                 <div class="icon"><img
@@ -375,6 +385,31 @@
 Buon divertimento</textarea>
                 </div>
             </div>
+            <div class="window projectInfo windows-box-shadow">
+                <div class="header"><label for="windows-projectInfo-input-on-top">Project info</label>
+                    <div class="header-buttons">
+                        <label for="windows-projectInfo-input-min" class="minimize windows-box-shadow"></label>
+                        <label for="windows-projectInfo-input-max" class="maximize windows-box-shadow"></label>
+                        <label for="windows-projectInfo-input" class="close windows-box-shadow">X</label>
+                    </div>
+                </div>
+                <div class="options line">
+                    <div class="item">File</div>
+                    <div class="item">Edit</div>
+                    <div class="item">Search</div>
+                </div>
+                <div class="content">
+                    <textarea>
+Project name: {{$project->name}}
+
+Project framework: {{$project->framework}}
+
+Project tecnologies: {{$project->tecnologies}}
+
+Project description: {{$project->description}}
+                    </textarea>
+                </div>
+            </div>
             <div class="window minesweeper windows-box-shadow">
                 <div class="header"><label for="windows-minesweeper-input-on-top">Minesweeper</label>
                     <div class="header-buttons">
@@ -559,6 +594,9 @@ Buon divertimento</textarea>
                     <label for="windows-notepad-input-min" class="notepad-tab tab windows-box-shadow"><span><img
                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAUVBMVEUAAACGhoYAgID4+Phm//+ZzMyZ///AwMAAAADM///x8fHM7P/q6upmzMymyvDM/8zd3d2Z/8zj4+MzmZnMzMxmzP9m/8wzzMwzzP/X19f///8yWdUJAAAAAXRSTlMAQObYZgAAAAFiS0dEGnVn5DIAAAAHdElNRQfiBhoALTAhTzgxAAABUklEQVQ4y5WT27aCMAxEJZByqYkFqR7//0fPpKUW0BeH4svsziQuvVx+UNOcz1HU0ukcEerYuf2hnobhEJA1TuPkPc5Vhr6pBLlst5MRo/de6RMwG5evsG8jAnZA9s22yze8jICwB8ZpKEL8rBawvAFyk7fZsmbdAvaArwHqsaUM97tIAVBQbjtdHApshb5dKpAGm+Hgg9WxTRDeAPybpma7i69RHaUGqYAf0axshzkHrG1JICtNT0ai2gpoqIBXh2iGLSodP2wFa8gVhKVSgOPIHYgYLaBvSwK5tJcKdyAk4qL5oQA2AaslR4ZpPpUG2QCNjzibm/yYAqwhJWCCjlmzkxih0rABSH5s2SLP+Ewr5AarIOYt2N4/eVrAmhu2Ic9KE4QKXIaT7rVBmv3PulnCC1rXF552l7ADlhDCy7D2GwDirP4I4N941tH/nPfsf9M/lngcOlIX3Z0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMDYtMjZUMDA6NDU6NDgtMDQ6MDBhJQfuAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTA2LTI2VDAwOjQ1OjQ4LTA0OjAwEHi/UgAAAABJRU5ErkJggg=="
                                 alt="" /></span><span>Notepad</span></label>
+                    <label for="windows-projectInfo-input-min" class="projectInfo-tab tab windows-box-shadow"><span><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAUVBMVEUAAACGhoYAgID4+Phm//+ZzMyZ///AwMAAAADM///x8fHM7P/q6upmzMymyvDM/8zd3d2Z/8zj4+MzmZnMzMxmzP9m/8wzzMwzzP/X19f///8yWdUJAAAAAXRSTlMAQObYZgAAAAFiS0dEGnVn5DIAAAAHdElNRQfiBhoALTAhTzgxAAABUklEQVQ4y5WT27aCMAxEJZByqYkFqR7//0fPpKUW0BeH4svsziQuvVx+UNOcz1HU0ukcEerYuf2hnobhEJA1TuPkPc5Vhr6pBLlst5MRo/de6RMwG5evsG8jAnZA9s22yze8jICwB8ZpKEL8rBawvAFyk7fZsmbdAvaArwHqsaUM97tIAVBQbjtdHApshb5dKpAGm+Hgg9WxTRDeAPybpma7i69RHaUGqYAf0axshzkHrG1JICtNT0ai2gpoqIBXh2iGLSodP2wFa8gVhKVSgOPIHYgYLaBvSwK5tJcKdyAk4qL5oQA2AaslR4ZpPpUG2QCNjzibm/yYAqwhJWCCjlmzkxih0rABSH5s2SLP+Ewr5AarIOYt2N4/eVrAmhu2Ic9KE4QKXIaT7rVBmv3PulnCC1rXF552l7ADlhDCy7D2GwDirP4I4N941tH/nPfsf9M/lngcOlIX3Z0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMDYtMjZUMDA6NDU6NDgtMDQ6MDBhJQfuAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTA2LTI2VDAwOjQ1OjQ4LTA0OjAwEHi/UgAAAABJRU5ErkJggg=="
+                                alt="" /></span><span>Project info</span></label>
                     <label for="windows-documents-input-min" class="documents-tab tab windows-box-shadow"><span><img
                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAIVBMVEUAAACAgIDAwMAAAAD///8AgID//wAA//8AAP8AAICAgABjy1kBAAAAAXRSTlMAQObYZgAAAAFiS0dEBI9o2VEAAAAHdElNRQfiBhgXAzSeRYh6AAABI0lEQVQ4y6XUwWrCQBAG4OQRmiy9uwmB3qJbvHcZ3fQBSs/mGYTVaxB6Flr6AHvzKZ3ZTQJJZgvS/6T5+XBmFJPkX0ljRVZHABR8IUDXPIA5SZ8oAosZoUfwBvAxI+m+wgjY2cuUiBZzAPg8niZkBEc7JSOw1hChQUIxAmMNklecpB5EANacaRd87waBA38ZY+03dKC3VeV6geDSoDhDU3oyCEEPfgNoiPQCQQfwHkBHpBdCvmRSyp+rvPpXeuuGA06TFa4/4CxrrfDrbJfJS7zYc7VMXuLFOFFIPHLKiCLTWDDisJE1K1Yb/HBOtGsclx1L0UnYRVxE5DFBt+IX8QW3iIqIlYqIlgp+kSQy1uPC/0q4sULxuLgt44tELRP5i/gzd7p32fYC8TrqAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTA2LTI0VDIzOjAzOjUyLTA0OjAwbzzW+wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0wNi0yNFQyMzowMzo1Mi0wNDowMB5hbkcAAAAASUVORK5CYII="
                                 alt="" /></span><span>Documents</span></label>
@@ -593,6 +631,9 @@ Buon divertimento</textarea>
                             <li><label for="windows-notepad-input"><img
                                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAUVBMVEUAAACGhoYAgID4+Phm//+ZzMyZ///AwMAAAADM///x8fHM7P/q6upmzMymyvDM/8zd3d2Z/8zj4+MzmZnMzMxmzP9m/8wzzMwzzP/X19f///8yWdUJAAAAAXRSTlMAQObYZgAAAAFiS0dEGnVn5DIAAAAHdElNRQfiBhoALTAhTzgxAAABUklEQVQ4y5WT27aCMAxEJZByqYkFqR7//0fPpKUW0BeH4svsziQuvVx+UNOcz1HU0ukcEerYuf2hnobhEJA1TuPkPc5Vhr6pBLlst5MRo/de6RMwG5evsG8jAnZA9s22yze8jICwB8ZpKEL8rBawvAFyk7fZsmbdAvaArwHqsaUM97tIAVBQbjtdHApshb5dKpAGm+Hgg9WxTRDeAPybpma7i69RHaUGqYAf0axshzkHrG1JICtNT0ai2gpoqIBXh2iGLSodP2wFa8gVhKVSgOPIHYgYLaBvSwK5tJcKdyAk4qL5oQA2AaslR4ZpPpUG2QCNjzibm/yYAqwhJWCCjlmzkxih0rABSH5s2SLP+Ewr5AarIOYt2N4/eVrAmhu2Ic9KE4QKXIaT7rVBmv3PulnCC1rXF552l7ADlhDCy7D2GwDirP4I4N941tH/nPfsf9M/lngcOlIX3Z0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMDYtMjZUMDA6NDU6NDgtMDQ6MDBhJQfuAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTA2LTI2VDAwOjQ1OjQ4LTA0OjAwEHi/UgAAAABJRU5ErkJggg=="
                                         alt="" /> Notepad</label></li>
+                            <li><label for="windows-projectInfo-input"><img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAUVBMVEUAAACGhoYAgID4+Phm//+ZzMyZ///AwMAAAADM///x8fHM7P/q6upmzMymyvDM/8zd3d2Z/8zj4+MzmZnMzMxmzP9m/8wzzMwzzP/X19f///8yWdUJAAAAAXRSTlMAQObYZgAAAAFiS0dEGnVn5DIAAAAHdElNRQfiBhoALTAhTzgxAAABUklEQVQ4y5WT27aCMAxEJZByqYkFqR7//0fPpKUW0BeH4svsziQuvVx+UNOcz1HU0ukcEerYuf2hnobhEJA1TuPkPc5Vhr6pBLlst5MRo/de6RMwG5evsG8jAnZA9s22yze8jICwB8ZpKEL8rBawvAFyk7fZsmbdAvaArwHqsaUM97tIAVBQbjtdHApshb5dKpAGm+Hgg9WxTRDeAPybpma7i69RHaUGqYAf0axshzkHrG1JICtNT0ai2gpoqIBXh2iGLSodP2wFa8gVhKVSgOPIHYgYLaBvSwK5tJcKdyAk4qL5oQA2AaslR4ZpPpUG2QCNjzibm/yYAqwhJWCCjlmzkxih0rABSH5s2SLP+Ewr5AarIOYt2N4/eVrAmhu2Ic9KE4QKXIaT7rVBmv3PulnCC1rXF552l7ADlhDCy7D2GwDirP4I4N941tH/nPfsf9M/lngcOlIX3Z0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMDYtMjZUMDA6NDU6NDgtMDQ6MDBhJQfuAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTA2LTI2VDAwOjQ1OjQ4LTA0OjAwEHi/UgAAAABJRU5ErkJggg=="
+                                        alt="" /> Projecti info</label></li>
                         </ul>
                     </li>
                     <li><label for="windows-documents-input"><img

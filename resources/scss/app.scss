@@ -362,6 +362,16 @@ body.windows {
         height: 20rem;
         min-height: 20rem;
     }
+    .window.projectInfo {
+        width: 40%;
+        min-width: 40%;
+        left: 34%;
+        margin-top: 0;
+        position: absolute;
+        top: 7rem;
+        height: 20rem;
+        min-height: 20rem;
+    }
     .window.trash {
         width: 50%;
         min-width: 50%;
@@ -728,6 +738,7 @@ body.windows {
 
     #windows-ie-input-max:checked ~ #all-windows .ie,
     #windows-notepad-input-max:checked ~ #all-windows .notepad,
+    #windows-projectInfo-input-max:checked ~ #all-windows .projectInfo,
     #windows-trash-input-max:checked ~ #all-windows .trash,
     #windows-documents-input-max:checked ~ #all-windows .documents,
     #windows-minesweeper-input-max:checked ~ #all-windows .minesweeper,
@@ -742,6 +753,7 @@ body.windows {
     }
     #windows-ie-input:checked ~ #all-windows .ie,
     #windows-notepad-input:checked ~ #all-windows .notepad,
+    #windows-projectInfo-input:checked ~ #all-windows .projectInfo,
     #windows-trash-input:checked ~ #all-windows .trash,
     #windows-documents-input:checked ~ #all-windows .documents,
     #windows-minesweeper-input:checked ~ #all-windows .minesweeper,
@@ -751,6 +763,7 @@ body.windows {
     }
     #windows-ie-input:checked ~ #start-bar .ie-tab,
     #windows-notepad-input:checked ~ #start-bar .notepad-tab,
+    #windows-projectInfo-input:checked ~ #start-bar .projectInfo-tab,
     #windows-trash-input:checked ~ #start-bar .trash-tab,
     #windows-documents-input:checked ~ #start-bar .documents-tab,
     #windows-minesweeper-input:checked ~ #start-bar .minesweeper-tab,
@@ -760,6 +773,7 @@ body.windows {
     }
     #windows-ie-input-min:checked ~ #all-windows .ie,
     #windows-notepad-input-min:checked ~ #all-windows .notepad,
+    #windows-projectInfo-input-min:checked ~ #all-windows .projectInfo,
     #windows-trash-input-min:checked ~ #all-windows .trash,
     #windows-documents-input-min:checked ~ #all-windows .documents,
     #windows-minesweeper-input-min:checked ~ #all-windows .minesweeper,
@@ -769,6 +783,7 @@ body.windows {
     }
     #windows-ie-input:checked ~ #start-bar .ie-tab,
     #windows-notepad-input:checked ~ #start-bar .notepad-tab,
+    #windows-projectInfo-input:checked ~ #start-bar .projectInfo-tab,
     #windows-trash-input:checked ~ #start-bar .trash-tab,
     #windows-documents-input:checked ~ #start-bar .documents-tab,
     #windows-minesweeper-input:checked ~ #start-bar .minesweeper-tab,
@@ -780,6 +795,7 @@ body.windows {
     }
     #windows-ie-input-min:checked ~ #start-bar .ie-tab,
     #windows-notepad-input-min:checked ~ #start-bar .notepad-tab,
+    #windows-projectInfo-input-min:checked ~ #start-bar .projectInfo-tab,
     #windows-trash-input-min:checked ~ #start-bar .trash-tab,
     #windows-documents-input-min:checked ~ #start-bar .documents-tab,
     #windows-minesweeper-input-min:checked ~ #start-bar .minesweeper-tab,
@@ -791,6 +807,7 @@ body.windows {
     }
     #windows-ie-input-on-top:checked ~ #all-windows .ie,
     #windows-notepad-input-on-top:checked ~ #all-windows .notepad,
+    #windows-projectInfo-input-on-top:checked ~ #all-windows .projectInfo,
     #windows-trash-input-on-top:checked ~ #all-windows .trash,
     #windows-documents-input-on-top:checked ~ #all-windows .documents,
     #windows-minesweeper-input-on-top:checked ~ #all-windows .minesweeper,
